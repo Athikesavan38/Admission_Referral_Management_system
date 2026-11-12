@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# Environment files (contain secrets)
+backend/.env
+frontend/.env
+
+# Uploads (user-generated content)
+backend/uploads/photos/*
+backend/uploads/documents/*
+!backend/uploads/photos/.gitkeep
+!backend/uploads/documents/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Test cache
+backend/node_modules/.cache/
